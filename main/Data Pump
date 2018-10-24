@@ -1,0 +1,19 @@
+Data Pump
+
+https://info-comp.ru/sisadminst/588-oracle-data-pump-expdp-impdp.html
+
+Expdp – утилита для экспорта данных в СУБД Oracle Database в дамп.
+Impdp – утилита для импорта данных в СУБД Oracle Database из дампа.
+
+Full – экспорт и импорт всей БД;
+Schema - экспорт и импорт выбранных схем;
+Table - экспорт и импорт выбранных таблиц;
+Tablespace - экспорт и импорт выбранных табличных пространств;
+Transportable Tablespace - экспорт и импорт табличных пространств для переноса на другой сервер.
+По умолчанию для выполнения заданий Data Pump Export и Data Pump Import используется режим схем.
+
+Мануал
+https://info-comp.ru/sisadminst/588-oracle-data-pump-expdp-impdp.html
+Создание дампа на основе отдельной схемы базы данных
+и
+Пример импорта данных из дампа Oracle с помощью impdp ( Импорт схемы из дампа )
