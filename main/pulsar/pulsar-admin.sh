@@ -17,9 +17,7 @@ bin/pulsar-admin topics create olga-tenant/olga-namespace/olga-topic
 bin/pulsar-admin topics list olga-tenant/olga-namespace
 
 # без этих настроек топик быстро удаляется
-bin/pulsar-admin topics update-properties olga-tenant/olga-namespace/olga-topic -p persistence.inactiveTopicRetentionTimeInSeconds=8640000
-
- bin/pulsar-admin namespaces set-retention olga-tenant/olga-namespace --time -1  --size 1T
+bin/pulsar-admin namespaces set-retention olga-tenant/olga-namespace --time -1  --size 1T
 
 
 #
