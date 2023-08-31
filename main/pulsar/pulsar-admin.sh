@@ -24,6 +24,8 @@ bin/pulsar-admin topics list edna/olga-namespace
 
 #
 bin/pulsar-admin topics stats edna/transport/WhatsappLicenseBillEvent
+
+
 # "msgInCounter" : 3, — количество сообщений в топике
 
 # write message
@@ -36,7 +38,7 @@ bin/pulsar-admin topics stats edna/transport/WhatsappLicenseBillEvent
 bin/pulsar-admin topics stats-internal edna/transport/WhatsappLicenseBillEvent
 
 # [Manage topics | Apache Pulsar](https://pulsar.apache.org/docs/3.1.x/admin-api-topics/#get-subscriptions)
-bin/pulsar-admin topics subscriptions persistent://edna/olga-namespace/olga-topic
+bin/pulsar-admin topics subscriptions edna/transport/WhatsappLicenseBillEvent
 
 #
 #bin/pulsar compact-topic --topic persistent://edna/olga-namespace/olga-topic
@@ -47,3 +49,7 @@ bin/pulsar-admin broker-stats --help
 ## todo
     topicPolicies      Operations on persistent topics
       Usage: topicPolicies [options]
+
+# для прода
+bin/pulsar-admin topics stats persistent://ednav1/transport/rawOutSuperMessageEventPartitionedOld
+bin/pulsar-admin topics stats-internal persistent://ednav1/transport/rawOutSuperMessageEventPartitionedOld

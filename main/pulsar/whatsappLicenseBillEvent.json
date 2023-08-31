@@ -11,7 +11,7 @@
   "averageMsgSize": 0.0,
   "msgChunkPublished": false,
   "storageSize": 7220746,
-//  	The estimated total unconsumed or backlog size (in bytes).
+//  	The estimated total unconsumed or backlog size (in bytes). как на UI 7 Мб
   "backlogSize": 7220746,
   "publishRateLimitedTimes": 0,
   "earliestMsgPublishTimeInBacklogs": 0,
@@ -30,7 +30,7 @@
       "msgRateRedeliver": 0.0,
       "messageAckRate": 0.0,
       "chunkedMessageRate": 0,
-//      The number of messages in the subscription backlog.
+//      The number of messages in the subscription backlog. В каком топику какой бэклог
       "msgBacklog": 6974,
       "backlogSize": 0,
       "earliestMsgPublishTimeInBacklog": 0,
