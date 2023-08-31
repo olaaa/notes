@@ -1,0 +1,1218 @@
+//$ bin/pulsar-admin topics stats-internal edna/transport/WhatsappLicenseBillEvent
+{
+  "entriesAddedCounter": 4447,
+  "numberOfEntries": 6974,
+  "totalSize": 7220746,
+  "currentLedgerEntries": 1,
+  "currentLedgerSize": 512,
+  "lastLedgerCreatedTimestamp": "2023-08-22T16:37:13.215Z",
+  "waitingCursorsCount": 1,
+  "pendingAddEntriesCount": 0,
+  "lastConfirmedEntry": "269288:0",
+  "state": "ClosedLedger",
+//  The ordered list of all ledgers for this topic that holds its messages.
+  // здечь 165 ледгерсов
+  "ledgers": [
+    {
+      "ledgerId": 24665,
+      "entries": 9,
+//      The size of messages written to this ledger (in bytes).
+      "size": 256778,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 24805,
+      "entries": 1,
+      "size": 533,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 29458,
+      "entries": 3,
+      "size": 1597,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 29619,
+      "entries": 2,
+      "size": 1063,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 29767,
+      "entries": 1,
+      "size": 1024,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 30092,
+      "entries": 23,
+      "size": 13731,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 30354,
+      "entries": 4,
+      "size": 2128,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 30620,
+      "entries": 1,
+      "size": 531,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 31575,
+      "entries": 5,
+      "size": 2673,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 31711,
+      "entries": 1,
+      "size": 533,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 33800,
+      "entries": 5,
+      "size": 2665,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 33989,
+      "entries": 6,
+      "size": 3196,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 34214,
+      "entries": 1,
+      "size": 531,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 35221,
+      "entries": 3,
+      "size": 1601,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 35491,
+      "entries": 1,
+      "size": 532,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 38268,
+      "entries": 1,
+      "size": 536,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 38440,
+      "entries": 1,
+      "size": 532,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 39134,
+      "entries": 364,
+      "size": 593712,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 39368,
+      "entries": 89,
+      "size": 51249,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 39529,
+      "entries": 341,
+      "size": 291231,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 39640,
+      "entries": 1,
+      "size": 537,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 40156,
+      "entries": 3,
+      "size": 1608,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 40366,
+      "entries": 357,
+      "size": 363727,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 40487,
+      "entries": 1,
+      "size": 536,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 41094,
+      "entries": 3,
+      "size": 1611,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 41245,
+      "entries": 1,
+      "size": 536,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 44093,
+      "entries": 6,
+      "size": 3214,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 44300,
+      "entries": 1,
+      "size": 536,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 45738,
+      "entries": 1,
+      "size": 534,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 46144,
+      "entries": 1,
+      "size": 536,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 46573,
+      "entries": 1,
+      "size": 532,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 49120,
+      "entries": 4,
+      "size": 2119,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 49311,
+      "entries": 1,
+      "size": 532,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 52762,
+      "entries": 4,
+      "size": 2132,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 53056,
+      "entries": 1,
+      "size": 533,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 54277,
+      "entries": 11,
+      "size": 5863,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 54633,
+      "entries": 1,
+      "size": 533,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 57430,
+      "entries": 1,
+      "size": 532,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 57700,
+      "entries": 1,
+      "size": 533,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 61314,
+      "entries": 1,
+      "size": 530,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 61583,
+      "entries": 1,
+      "size": 532,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 62650,
+      "entries": 497,
+      "size": 961996,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 62816,
+      "entries": 1,
+      "size": 528,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 63409,
+      "entries": 1,
+      "size": 530,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 63749,
+      "entries": 1,
+      "size": 529,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 64304,
+      "entries": 1,
+      "size": 530,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 65537,
+      "entries": 1,
+      "size": 533,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 66763,
+      "entries": 5,
+      "size": 2665,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 66889,
+      "entries": 1,
+      "size": 531,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 70116,
+      "entries": 10,
+      "size": 6312,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 70505,
+      "entries": 1,
+      "size": 533,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 70783,
+      "entries": 1,
+      "size": 530,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 72179,
+      "entries": 3,
+      "size": 1594,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 72526,
+      "entries": 4,
+      "size": 2130,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 72857,
+      "entries": 4,
+      "size": 2129,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 73020,
+      "entries": 2,
+      "size": 1066,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 73147,
+      "entries": 1,
+      "size": 504,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 76610,
+      "entries": 7,
+      "size": 3544,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 76948,
+      "entries": 2,
+      "size": 1478,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 77248,
+      "entries": 1,
+      "size": 506,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 77369,
+      "entries": 6,
+      "size": 3695,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 77508,
+      "entries": 1,
+      "size": 536,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 78036,
+      "entries": 4,
+      "size": 2637,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 78439,
+      "entries": 1,
+      "size": 536,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 78745,
+      "entries": 1,
+      "size": 536,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 79183,
+      "entries": 431,
+      "size": 303312,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 79460,
+      "entries": 16,
+      "size": 8653,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 79707,
+      "entries": 1,
+      "size": 505,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 79886,
+      "entries": 11,
+      "size": 5572,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 79976,
+      "entries": 1,
+      "size": 507,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 82182,
+      "entries": 16,
+      "size": 8099,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 82512,
+      "entries": 1,
+      "size": 507,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 82818,
+      "entries": 4,
+      "size": 2028,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 82968,
+      "entries": 1,
+      "size": 507,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 83898,
+      "entries": 4,
+      "size": 2028,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 84191,
+      "entries": 1,
+      "size": 508,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 87251,
+      "entries": 1,
+      "size": 505,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 87601,
+      "entries": 1,
+      "size": 506,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 89525,
+      "entries": 1,
+      "size": 511,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 89815,
+      "entries": 1,
+      "size": 506,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 94104,
+      "entries": 1,
+      "size": 508,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 94429,
+      "entries": 1,
+      "size": 511,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 96135,
+      "entries": 189,
+      "size": 332247,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 96240,
+      "entries": 1,
+      "size": 510,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 99113,
+      "entries": 7,
+      "size": 3565,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 99530,
+      "entries": 5,
+      "size": 2550,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 104983,
+      "entries": 1,
+      "size": 506,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 108348,
+      "entries": 1,
+      "size": 506,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 108581,
+      "entries": 1,
+      "size": 506,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 110173,
+      "entries": 3,
+      "size": 1521,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 110378,
+      "entries": 1,
+      "size": 506,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 113535,
+      "entries": 1,
+      "size": 508,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 113810,
+      "entries": 1,
+      "size": 505,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 117812,
+      "entries": 2,
+      "size": 1012,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 120973,
+      "entries": 1,
+      "size": 506,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 121566,
+      "entries": 263,
+      "size": 332900,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 121882,
+      "entries": 1,
+      "size": 510,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 125249,
+      "entries": 4,
+      "size": 2499,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 125612,
+      "entries": 1,
+      "size": 3297,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 126729,
+      "entries": 361,
+      "size": 348693,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 126826,
+      "entries": 1,
+      "size": 511,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 128008,
+      "entries": 2,
+      "size": 1020,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 128438,
+      "entries": 1,
+      "size": 511,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 129778,
+      "entries": 300,
+      "size": 350207,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 130088,
+      "entries": 1,
+      "size": 511,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 131332,
+      "entries": 2,
+      "size": 1024,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 131594,
+      "entries": 1,
+      "size": 511,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 132595,
+      "entries": 1,
+      "size": 512,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 132739,
+      "entries": 1,
+      "size": 509,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 134857,
+      "entries": 5,
+      "size": 2550,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 138420,
+      "entries": 3,
+      "size": 1519,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 138531,
+      "entries": 2,
+      "size": 1014,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 138737,
+      "entries": 1,
+      "size": 507,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 139033,
+      "entries": 1,
+      "size": 509,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 141488,
+      "entries": 3,
+      "size": 1527,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 141776,
+      "entries": 1,
+      "size": 508,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 146691,
+      "entries": 2,
+      "size": 1021,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 146955,
+      "entries": 1,
+      "size": 508,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 153047,
+      "entries": 1,
+      "size": 508,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 153360,
+      "entries": 1,
+      "size": 508,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 155622,
+      "entries": 1,
+      "size": 508,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 156070,
+      "entries": 1,
+      "size": 506,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 156810,
+      "entries": 1,
+      "size": 508,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 157197,
+      "entries": 3,
+      "size": 1528,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 157542,
+      "entries": 1,
+      "size": 510,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 158855,
+      "entries": 655,
+      "size": 372697,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 159002,
+      "entries": 1,
+      "size": 512,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 159530,
+      "entries": 5,
+      "size": 2554,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 160432,
+      "entries": 282,
+      "size": 361377,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 160765,
+      "entries": 1,
+      "size": 514,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 162646,
+      "entries": 1,
+      "size": 514,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 162958,
+      "entries": 1,
+      "size": 513,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 163180,
+      "entries": 1,
+      "size": 509,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 171173,
+      "entries": 4,
+      "size": 2040,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 171590,
+      "entries": 4,
+      "size": 2038,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 171927,
+      "entries": 1,
+      "size": 509,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 172524,
+      "entries": 11,
+      "size": 5610,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 172902,
+      "entries": 1,
+      "size": 508,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 184863,
+      "entries": 1,
+      "size": 508,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 185051,
+      "entries": 1,
+      "size": 970,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 194109,
+      "entries": 488,
+      "size": 368110,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 194231,
+      "entries": 1,
+      "size": 512,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 195875,
+      "entries": 2,
+      "size": 1026,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 196279,
+      "entries": 1,
+      "size": 510,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 201328,
+      "entries": 3,
+      "size": 1529,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 201789,
+      "entries": 1,
+      "size": 509,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 206155,
+      "entries": 1,
+      "size": 510,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 206551,
+      "entries": 1,
+      "size": 511,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 240046,
+      "entries": 2,
+      "size": 1019,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 240476,
+      "entries": 1,
+      "size": 508,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 240844,
+      "entries": 512,
+      "size": 355603,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 241059,
+      "entries": 1,
+      "size": 513,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 243660,
+      "entries": 2,
+      "size": 1022,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 244080,
+      "entries": 1,
+      "size": 511,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 245267,
+      "entries": 2,
+      "size": 1022,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 245656,
+      "entries": 1,
+      "size": 511,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 250420,
+      "entries": 1,
+      "size": 511,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 250830,
+      "entries": 1,
+      "size": 509,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 262981,
+      "entries": 530,
+      "size": 355927,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 263465,
+      "entries": 7,
+      "size": 3602,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 263872,
+      "entries": 1,
+      "size": 510,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 268600,
+      "entries": 946,
+      "size": 1025460,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 268928,
+      "entries": 1,
+      "size": 511,
+      "offloaded": false,
+      "underReplicated": false
+    },
+    {
+      "ledgerId": 269288,
+      "entries": 1,
+      "size": 512,
+      "offloaded": false,
+      "underReplicated": false
+    }
+  ],
+//  The list of all cursors on this topic. Each subscription in the topic stats has a cursor.
+  "cursors": {
+    "billing-whatsapp-default": {
+// The ack position: the last message that the subscriber acknowledges. All messages before this position are acknowledged by the subscriber.
+// -1 значит что удалено всё до 24665 ледгера
+      "markDeletePosition": "24665:-1",
+//      The latest position of the subscriber for reading messages
+//       Курсор хранит информацию о текущей позиции в журнале.
+//      Эта позиция обычно определяется номером журнала (ledger number) и смещением (offset) внутри этого журнала.
+      "readPosition": "24665:0",
+      "waitingReadOp": false,
+      "pendingReadOps": 0,
+      "messagesConsumedCounter": -2527,
+//      The ledger used to persistently store the current markDeletePosition
+      "cursorLedger": -1,
+      "cursorLedgerLastEntry": -1,
+      "individuallyDeletedMessages": "[]",
+      "lastLedgerSwitchTimestamp": "2023-04-24T19:19:52.842Z",
+      "state": "NoLedger",
+      "numberOfEntriesSinceFirstNotAckedMessage": 1,
+      "totalNonContiguousDeletedMessagesRange": 0,
+      "subscriptionHavePendingRead": false,
+      "subscriptionHavePendingReplayRead": false,
+      "properties": {}
+    },
+    "billing-whatsapp-processor-default": {
+      "markDeletePosition": "269288:0",
+      "readPosition": "269288:1",
+      "waitingReadOp": true,
+      "pendingReadOps": 0,
+      "messagesConsumedCounter": 4447,
+      "cursorLedger": 270493,
+      "cursorLedgerLastEntry": 0,
+      "individuallyDeletedMessages": "[]",
+      "lastLedgerSwitchTimestamp": "2023-08-23T11:37:09.627Z",
+      "state": "Open",
+      "numberOfEntriesSinceFirstNotAckedMessage": 1,
+      "totalNonContiguousDeletedMessagesRange": 0,
+      "subscriptionHavePendingRead": true,
+      "subscriptionHavePendingReplayRead": false,
+      "properties": {}
+    }
+  },
+  "schemaLedgers": [],
+  "compactedLedger": {
+    "ledgerId": -1,
+    "entries": -1,
+    "size": -1,
+    "offloaded": false,
+    "underReplicated": false
+  }
+}
+
