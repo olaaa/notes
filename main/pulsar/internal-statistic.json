@@ -18,6 +18,7 @@
       "entries": 9,
 //      The size of messages written to this ledger (in bytes).
       "size": 256778,
+//      Является ли ledger выгружаемым. Для compacted (уплотненного) топика значение равно false.
       "offloaded": false,
       "underReplicated": false
     },
